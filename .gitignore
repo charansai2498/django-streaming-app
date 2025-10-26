@@ -1,0 +1,20 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environment
+venv/
+env/
+
+# Database
+db.sqlite3
+
+# Media files (videos, posters, etc.)
+media/
+*.mp4
+*.mkv
+*.avi
+*.mov
+
+# Django static files (collected)
+staticfiles/
