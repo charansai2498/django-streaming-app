@@ -40,6 +40,10 @@ main {
     box-sizing: border-box;
 }
 
+.login-page {
+    background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+}
+
 /* Main movie grid styling */
 .movie-list {
     display: grid;
