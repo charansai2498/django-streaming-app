@@ -97,6 +97,69 @@ main {
     color: #fff;
 }
 
+/* Login & Register Form Styling */
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+form {
+    background: rgba(0, 0, 0, 0.7); /* translucent black box */
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(255, 255, 255, 0.2);
+    width: 300px;
+    color: #fff; /* make form text white */
+}
+
+form p {
+    color: #fff; /* white text for labels and fields */
+}
+
+form input[type="text"],
+form input[type="password"],
+form input[type="email"] {
+    width: 100%;
+    padding: 0.6rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background: #222;
+    color: #fff;
+}
+
+form input::placeholder {
+    color: #aaa;
+}
+
+button[type="submit"] {
+    background: var(--primary-red);
+    color: #fff;
+    border: none;
+    padding: 0.7rem 1.2rem;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+
+button[type="submit"]:hover {
+    background: var(--hover-red);
+}
+
+p a {
+    color: var(--primary-red);
+    text-decoration: none;
+}
+
+p a:hover {
+    text-decoration: underline;
+}
+
+
 .movie-item:hover {
     transform: translateY(-10px) scale(1.02);
     box-shadow: 0 15px 40px rgba(229, 9, 20, 0.4);
